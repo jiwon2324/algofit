@@ -1,0 +1,12 @@
+{
+  "수학": ["math", "number theory", "combinatorics", "probabilities", "chinese remainder theorem", "matrices"],
+  "그래프": ["graphs", "trees", "dfs and similar", "shortest paths", "dsu", "flows", "graph matchings", "2-sat"],
+  "DP": ["dp", "bitmasks"],
+  "자료구조": ["data structures"],
+  "탐색": ["binary search", "two pointers", "ternary search", "meet-in-the-middle"],
+  "그리디·정렬": ["greedy", "sortings"],
+  "구현·구성": ["implementation", "constructive algorithms", "brute force", "expression parsing"],
+  "문자열": ["strings", "hashing", "string suffix structures"],
+  "기하": ["geometry"],
+  "기타": ["games", "interactive", "divide and conquer", "fft", "schedules", "communication"]
+}

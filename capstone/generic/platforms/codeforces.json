@@ -1,0 +1,73 @@
+{
+  "이름": "Codeforces",
+  "설명": "Codeforces 제출 기록 (0단계에서 만든 submissions_clean.csv). 태그는 0단계에서 이미 10개 분야로 묶여 있음.",
+  "열": {
+    "학생": "handle",
+    "문제": "problem_id",
+    "제출시각": "time",
+    "결과": "verdict",
+    "분야": "categories",
+    "문제난이도": null,
+    "학생레이팅": null
+  },
+  "분야_구분자": ";",
+  "결과_대응": {
+    "정답": [
+      "OK"
+    ],
+    "오답": [
+      "WRONG_ANSWER"
+    ],
+    "시간초과": [
+      "TIME_LIMIT_EXCEEDED"
+    ],
+    "메모리초과": [
+      "MEMORY_LIMIT_EXCEEDED"
+    ],
+    "런타임에러": [
+      "RUNTIME_ERROR"
+    ],
+    "컴파일에러": [
+      "COMPILATION_ERROR"
+    ],
+    "기타오답": [
+      "IDLENESS_LIMIT_EXCEEDED",
+      "PRESENTATION_ERROR",
+      "CHALLENGED",
+      "PARTIAL"
+    ]
+  },
+  "분야_대응": {
+    "수학": [
+      "수학"
+    ],
+    "그래프": [
+      "그래프"
+    ],
+    "DP": [
+      "DP"
+    ],
+    "자료구조": [
+      "자료구조"
+    ],
+    "탐색": [
+      "탐색"
+    ],
+    "그리디·정렬": [
+      "그리디·정렬"
+    ],
+    "구현·구성": [
+      "구현·구성"
+    ],
+    "문자열": [
+      "문자열"
+    ],
+    "기하": [
+      "기하"
+    ],
+    "기타": [
+      "기타"
+    ]
+  },
+  "메모": "문제난이도·학생레이팅을 null로 두면 Codeforces의 공식 값 없이 풀이 기록만으로 난이도·실력을 추정한다 (재사용성 검증용)"
+}
