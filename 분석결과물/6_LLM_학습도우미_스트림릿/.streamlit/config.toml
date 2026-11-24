@@ -1,0 +1,23 @@
+# 알고핏(AlgoFit) 디자인 기준 (학습도우미_app.py의 색 상수와 같은 값)
+[client]
+toolbarMode = "minimal"
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#3D5AFE"              # 브랜드 파랑(알고핏 로고 색)
+backgroundColor = "#FFFFFF"           # 흰 바탕
+secondaryBackgroundColor = "#F7F7F8"  # 입력칸, 상자 (아주 연한 회색)
+textColor = "#1F1F1F"                 # 본문 글자
+font = "'Noto Sans KR':https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif"
+headingFontSizes = ["2rem", "1.5rem", "1.25rem", "1.05rem"]
+headingFontWeights = 700
+baseRadius = "10px"
+blueColor = "#3D5AFE"
+orangeColor = "#A9512A"
+
+[theme.sidebar]
+backgroundColor = "#F9F9FA"
+secondaryBackgroundColor = "#FFFFFF"

@@ -32,15 +32,22 @@ capstone/                    진단 알고리즘
 ├── model/model_settings.json  a, b, 판정 기준, K-means 군집 중심 등 설정값
 ├── output/                  결과 파일(보고서·결과 표 등, 용량이 큰 중간 파일은 제외)
 └── generic/                 다른 사이트에 다시 쓰기(AtCoder 적용, 공식 점수 없이 재진단 검증)
-app/                         알고핏 웹 서비스 (Streamlit)
-├── 학습도우미_app.py        웹 앱 본체 · 실행 방법은 실행방법.md
-├── env_예시.txt             OpenAI API 키 설정 예시 (.env 파일로 복사해 키 입력, 키는 올리지 않음)
-└── 웹LLM용_사용자별_진단_v2.jsonl  진단 결과(익명 처리된 학습자 ID)
+분석결과물/                  졸업작품 분석 결과물 전체
+├── 0_먼저_읽어주세요_파일안내.md   파일 안내
+├── 1_분석코드_Colab용.ipynb · 2_분석코드_실행결과포함.ipynb · 3_분석코드_파이썬.py   분석 노트북·코드
+├── 5_분석방법_단계별_안내.docx · 7_재사용_알고리즘_개발계획.docx · 8_기준값_비교실험_결과.docx
+├── 분석결과/                결과표·대시보드·그림·사용자별 진단 파일(학습자 ID 익명)
+└── 6_LLM_학습도우미_스트림릿/   알고핏 웹 서비스 (Streamlit + OpenAI)
+    ├── 학습도우미_app.py     웹 앱 본체 · 실행 방법은 실행방법.md
+    ├── env_예시.txt          API 키 설정 예시 (.env로 복사해 키 입력, 키는 올리지 않음)
+    ├── UI설계서_알고핏.docx · 화면캡처/ · 시연영상/
+    └── 점검_테스트.py        앱 동작 점검
+발표자료/                    최종 발표 자료·최종 산출물(PDF)·시연 영상(30초)
 figures/                     발표·보고서 그래프와 그리는 코드(make_figures.py)
 ```
 
 실행 순서: 아래 데이터셋을 내려받아 `capstone/step0_prepare.py`의 `DATA_FILE` 경로를 맞춘 뒤 step0 → step1 → step3 → step4 → step6 → step7 → step8 순서로 실행합니다.
-웹 앱: `cd app && pip install -r requirements.txt && streamlit run 학습도우미_app.py`
+웹 앱: `cd 분석결과물/6_LLM_학습도우미_스트림릿 && pip install -r requirements.txt && streamlit run 학습도우미_app.py` (OpenAI API 키 필요)
 
 ## 3. 출처
 

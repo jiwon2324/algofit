@@ -1,0 +1,147 @@
+{
+  "handle": "user5060",
+  "rating": 990.0,
+  "rating_band": "~1199",
+  "learning_type": "꾸준한 다작형",
+  "learning_type_desc": "매주 꾸준히, 많은 문제를 푸는 유형",
+  "target": "solved",
+  "overall_vs_expected": 1.003,
+  "weak_tags": [
+    {
+      "tag": "dp",
+      "category": "DP",
+      "attempts": 15,
+      "correct": 11,
+      "raw_rate": 0.733,
+      "vs_expected": 0.815,
+      "z": -2.15
+    }
+  ],
+  "strong_tags": [
+    {
+      "tag": "greedy",
+      "category": "그리디",
+      "attempts": 51,
+      "correct": 50,
+      "raw_rate": 0.98,
+      "vs_expected": 1.071,
+      "z": 1.68
+    }
+  ],
+  "categories": [
+    {
+      "category": "DP",
+      "attempts": 15,
+      "vs_expected": 0.815,
+      "judge": "약점"
+    },
+    {
+      "category": "수학",
+      "attempts": 63,
+      "vs_expected": 0.992,
+      "judge": "보통"
+    },
+    {
+      "category": "구현·기초",
+      "attempts": 104,
+      "vs_expected": 0.997,
+      "judge": "보통"
+    },
+    {
+      "category": "문자열",
+      "attempts": 17,
+      "vs_expected": 1.028,
+      "judge": "보통"
+    },
+    {
+      "category": "게임·인터랙티브",
+      "attempts": 5,
+      "vs_expected": 1.073,
+      "judge": "보통"
+    },
+    {
+      "category": "기하",
+      "attempts": 5,
+      "vs_expected": 1.09,
+      "judge": "보통"
+    },
+    {
+      "category": "비트마스크",
+      "attempts": 15,
+      "vs_expected": 1.086,
+      "judge": "보통"
+    },
+    {
+      "category": "자료구조",
+      "attempts": 13,
+      "vs_expected": 1.119,
+      "judge": "보통"
+    },
+    {
+      "category": "탐색·분할",
+      "attempts": 15,
+      "vs_expected": 1.107,
+      "judge": "보통"
+    },
+    {
+      "category": "그리디",
+      "attempts": 51,
+      "vs_expected": 1.071,
+      "judge": "강점"
+    }
+  ],
+  "difficulty_bands": [
+    {
+      "band": "800-1199",
+      "attempts": 110,
+      "solve_rate": 0.955,
+      "vs_expected": 1.028
+    },
+    {
+      "band": "1200-1599",
+      "attempts": 23,
+      "solve_rate": 0.87,
+      "vs_expected": 0.977
+    },
+    {
+      "band": "1600-1999",
+      "attempts": 5,
+      "solve_rate": 0.6,
+      "vs_expected": 0.712
+    },
+    {
+      "band": "2400+",
+      "attempts": 1,
+      "solve_rate": 0.0,
+      "vs_expected": 0.0
+    }
+  ],
+  "behavior": {
+    "포기율": 0.078,
+    "첫 제출 정답률": 0.549,
+    "평균 재시도": 1.331,
+    "WA 비율": 0.824,
+    "TLE·MLE 비율": 0.088,
+    "RE 비율": 0.034,
+    "CE 비율": 0.055,
+    "도전 성향": 158.324,
+    "태그 다양성": 0.689,
+    "재제출 간격 중앙값(분)": 5.5,
+    "꾸준함": 0.708,
+    "주당 시도 수": 9.059
+  },
+  "behavior_percentile_in_band": {
+    "포기율": 0.52,
+    "첫 제출 정답률": 0.27,
+    "평균 재시도": 0.86,
+    "WA 비율": 0.72,
+    "TLE·MLE 비율": 0.29,
+    "RE 비율": 0.43,
+    "CE 비율": 0.68,
+    "도전 성향": 0.75,
+    "태그 다양성": 0.4,
+    "재제출 간격 중앙값(분)": 0.52,
+    "꾸준함": 0.37,
+    "주당 시도 수": 0.73
+  }
+}
